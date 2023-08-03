@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 7</title>
+</head>
+<body>
+    <script>
+        const pscomisao=5, comissaofixa=10
+        var salariofixo,comissaoporcarros,qtdcarros,totalvendas,salariofinal
+
+        salariofixo = eval (prompt("Digite o salario funcionario"))
+        comissaoporcarros =  eval (prompt("Digite a sua comissao"))
+        qtdcarros =  eval (prompt("Digite o valor total da sua venda"))
+        totalvendas =  eval (prompt("Digite o total de carros vendidos"))
+
+        salariofinal = salariofixo + totalvendas * pscomisao/100 + qtdcarros*comissaoporcarros
+
+        document .write ("O seu salario final é: " + salariofinal)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title> PRODUCT BOX </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="Resolv, Grupo Resolv, Team">
+		<meta name="author" content="Rodrigo Topan, Igor Ponso, João">
+		<meta name="description" content="Página Inicial">
+		<!--LINK CSS-->
+		<link rel="stylesheet" type="text/css" href="../css/style-css.css">
+		<!--LINK CDN BOOTSTRAP-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	</head>
+	<body style="background: url(../assets/img/img1.jpg);
+	width: 100%;
+ 	height: 100%;
+    background-position:68%;
+    background-attachment:fixed;">
+		<div class="container-principal" style="margin-top: 5%;" align="center">
+			<header>
+				<h1 class="page-header" align="center"><img src="../assets/img/logo.png" width="350px;"></h1>
+			</header>
+			<main>
+				<div class="form_acesso">
+					<form action="acesso.php" method="POST">
+						<div class="form-group col-md-6">
+							<label name="c_email"></label>
+							<input class="form-control form-control-sm" type="email" name="c_email" placeholder="Digite o seu email" required>
+						</div>
+						<div class="form-group col-md-6">
+							<label name="c_senha"></label>
+							<input class="form-control form-control-sm col-md-12" type="password" name="c_senha" placeholder="Digite sua senha" required>
+						</div>
+						<input type="submit" name="btn_enviar" class="btn btn-primary btn-sm col-md-5" value="ENTRAR"/>
+					</form>	
+				</div>
+				<div>
+					<br>
+					<img src="../assets/img/login-lnkdin.png" width="25px"/><img src="../assets/img/login-gplus.png" width="25px" style="margin-left: 15px;"/>
+					<br><br><a href="#">CRIAR CONTA</a><br>
+				</div>
+			</main>
+			<footer>PROJETO FEITO POR<br>
+				<a href="https://www.linkedin.com/in/igor-ponso-94a696b5/" target="_blank">IGOR PONSO</a><br/>
+				<a href="https://br.linkedin.com/in/rodrigo-garcia-topan-moreira-60a4bb147" target="_blank">JOÃO PEDRO DIWAN</a><br/>
+				<a href="https://br.linkedin.com/in/joaodiwan" target="_blank">RODRIGO GARCIA TOPAN MOREIRA</a><br/>
+				<br /><br /><br />© 2017 Todos os direitos reservados.	
+			<div class="freeza">
+				<span>"This isn't even my final form"</span>  
+				<img src="../assets/img/freeza.svg">
+			</div>
+			</footer>
+		</div>
+	</body>

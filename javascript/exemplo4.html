@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var total, votosb, votosn,votosv
+        
+        total = eval (prompt ("Qual total de votos do municipio ? "))
+        votosb = eval (prompt ("Quantos votos em brancos teve ? "))
+        votosn = eval (prompt ("Quantos votos nulos teve ? "))
+        votosv = eval (prompt ("Quantos votos validos teve ?"))
+
+        votosb = votosb/total*100
+        document .write ("O porcental de votos branco em relação ao total de votos foi de: "+votosb+"%")
+
+        votosn = votosn/total*100
+        document .write("<br>O porcental de votos nulos em relação ao total de votos foi de: "+votosn+"%")
+
+        votosv = votosv/total*100
+        document .write ("<br>O porcental de votos validos em relação ao total de votos foi de: "+votosv+"%")
+
+    
+
+    </script>
+    
+</body>
+</html>
