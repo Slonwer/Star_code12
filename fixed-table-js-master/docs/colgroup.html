@@ -1,0 +1,275 @@
+
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed Table JS | colgroup</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="./js/fixed_table.js"></script>
+</head>
+<body id="pageColgroup">
+    <ul class="globalMenuList">
+        <li>
+            <a href="./index.html">Top</a>
+        </li>
+        <li>
+            <a href="./colgroup.html">colgroup</a>
+        </li>
+        <li>
+            <a href="./callback.html">callback</a>
+        </li>
+    </ul>
+
+    <div class="modeView">
+        <p>Mode: <span class="val">Normal</span></p>
+    </div>
+    <div class="btnView">
+        <ui class="btnList">
+            <li class="btnHalf">Half Mode</li>
+            <li class="btnFull">Full Mode</li>
+        </ui>
+    </div>
+    <div class="tableView">
+        <div id="fixedTable" class="fixedTable">
+            <table>
+                <colgroup>
+                    <col width="210px">
+                    <col width="120px">
+                    <col width="120px">
+                    <col width="90px">
+                    <col width="130px">
+                    <col width="200px">
+                    <col width="92px">
+                    <col width="92px">
+                    <col width="100px">
+                    <col width="92px">
+                    <col width="auto">
+                </colgroup>
+                <thead>
+                  <tr>
+                      <th></th>
+                      <th>Row Title01</th>
+                      <th>Row Title02</th>
+                      <th>Row Title03</th>
+                      <th>Row Title04</th>
+                      <th>Row Title05</th>
+                      <th>Row Title06</th>
+                      <th>Row Title07</th>
+                      <th>Row Title08</th>
+                      <th>Row Title09</th>
+                      <th>Row Title10</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <th>Col Title01</th>
+                      <td>detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <input type="hidden"/>
+                      <input type="hidden"/>
+                      <input type="hidden"/>
+                  </tr>
+                  <tr>
+                      <th>Col Title02</th>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <input type="hidden"/>
+                  </tr>
+                  <tr>
+                      <th>Col Title03</th>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title04</th>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title05</th>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title06</th>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                  </tr>
+                  <tr>
+                      <th>Col Title07</th>
+                      <td>detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title08</th>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                      <td>detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title09</th>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                  </tr>
+                  <tr>
+                      <th>Col Title10</th>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title11</th>
+                      <td>detail Text detail Text detail Text detail Text detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                      <td>detail Text </td>
+                      <td>detail Text detail Text detail Text </td>
+                  </tr>
+                  <tr>
+                      <th>Col Title12</th>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                      <td>detail Text detail Text</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        var fixedTable = new FixedTable();
+    </script>
+
+    <script>
+    $(function() {
+        $('.btnHalf').on('click', function() {
+            $('.tableView').removeClass('full');
+
+            $('.tableView').toggleClass('half');
+
+            if($('.tableView').hasClass('half')) {
+                fixedTable.changeMode(true);
+                setModeText('Half');
+            } else {
+                fixedTable.changeMode(false);
+                resetCSSClass();
+            }
+        });
+
+        $('.btnFull').on('click', function() {
+            $('.tableView').removeClass('half');
+
+            $('.tableView').toggleClass('full');
+
+            if($('.tableView').hasClass('full')) {
+                fixedTable.changeMode(true);
+                setModeText('Full');
+            } else {
+                fixedTable.changeMode(false);
+                resetCSSClass();
+            }
+        });
+
+        var resetCSSClass = function() {
+            $('.fixedTable').width('auto');
+            $('.fixedTable').height('600px');
+            setModeText('Normal');
+        };
+
+        var setModeText = function(text) {
+            $('.modeView .val').text(text);
+        };
+    });
+    </script>
+</body>
+</html>

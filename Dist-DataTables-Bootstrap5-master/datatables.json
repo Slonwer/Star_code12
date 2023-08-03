@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/dataTables.bootstrap5.js",
+        "js/dataTables.bootstrap5.min.js",
+        "js/dataTables.bootstrap5.min.mjs",
+        "js/dataTables.bootstrap5.mjs"
+    ],
+    "css": [
+        "css/dataTables.bootstrap5.css",
+        "css/dataTables.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/dataTables.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/DataTablesSrc",
+    "last-tag": "1.13.5",
+    "last-sync": "86e7490e83cb53f6f4e3ecd3e8e62ccad5230b06"
+}

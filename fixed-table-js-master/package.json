@@ -1,0 +1,49 @@
+{
+  "name": "fixed-table-js",
+  "version": "1.5.3",
+  "description": "FiixedTableJS - Fixed Table Layout JavaScript Library",
+  "main": "dist/fixed_table.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha test/** -r test/spec_setup.js",
+    "test:watch": "$(npm bin)/mocha -w test/** -r test/spec_setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcyou/fixed-table-js"
+  },
+  "author": "daisuke.takayama",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-mocha": "^4.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-tsc": "^1.1.4",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "log": "^1.4.0",
+    "main-bower-files": "^2.9.0",
+    "run-sequence": "^1.1.2",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webcyou/fixed-table-js/issues"
+  },
+  "homepage": "https://github.com/webcyou/fixed-table-js#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "power-assert": "^1.4.1"
+  }
+}
