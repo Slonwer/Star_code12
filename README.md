@@ -29,7 +29,8 @@ Explain how to install and set up the project. Provide the prerequisites and the
 shell
 Copy code
 Example:
-$ git clone https://github.com/your-username/project-name.git
+![Text]([URL](https://github.com/Slonwer/Shell_Bash/tree/main))
+$ git clone[ https://github.com/your-username/project-name.git](https://github.com/Slonwer)
 $ cd project-name
 $ npm install
 Usage
