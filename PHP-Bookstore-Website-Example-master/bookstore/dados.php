@@ -29,6 +29,14 @@ class Funcionario {
     }
 }
 
+class Dados {
+    public $dados;
+
+    public function __construct($dados){
+        $this->dados = $dados;
+    }
+}
+
 // Dados do estoque
 $estoque = [
     new Produto("Produto A", 10),
@@ -49,6 +57,8 @@ $funcionarios = [
     new Funcionario("Funcionário 2"),
     new Funcionario("Funcionário 3")
 ];
+
+$dados = new Dados("Dados aplicados");
 
 // Função para somar o estoque
 function somarEstoque($estoque) {
@@ -77,3 +87,5 @@ $totalFuncionarios = contarFuncionarios($funcionarios);
 echo "Total de estoque: " . $totalEstoque . "<br>";
 echo "Total de clientes: " . $totalClientes . "<br>";
 echo "Total de funcionários: " . $totalFuncionarios . "<br>";
+echo "Dados aplicados : " . $dados->dados . "<br>";
+?>
